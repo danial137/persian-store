@@ -2,7 +2,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { ThreeDCardExample } from "@/app/snippets/3d-card-snippets"
-import { EverValutSnipet } from '@/app/snippets/EverValutSnipets'
+import { CardDemo }  from "./ui/Card"
 const GraphicDesighn = () => {
     return (
         <div className="p-4 mx-auto relative z-10 w-full pt-20 md:pt-32">
@@ -32,7 +32,7 @@ const GraphicDesighn = () => {
                     animate={{ opacity: 1, y: 0 }}
                     style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem' }}
                 >
-                    <EverValutSnipet />
+                   <CardDemo/>
                 </motion.div>
 
             </div>
